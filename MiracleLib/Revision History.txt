@@ -1,0 +1,13 @@
+MiracleLib Revision History
+v1.5 23/2/2011
+- CParam problemli kod karýþýklýðý devam ediyor. Yazýlan kod en az 10 yýllýk olduðu için tüm string tanýmlarý statik tanýmlanmýþ ve ciddi problemliymiþ. statik yapý korundu sadece DOSpace ve NoSpace fonksiyonlarýna limit kontrolü kondu.
+-mirAdjustRect isimli çok problemli bir konuyu çözen fonksiyon kondu. 
+- CParam'da virgül içeren saklama ile ilgili bug DoSpace,NoSpace'e gerekli tanýmlamalar eklenerek çözüldü.
+v1.4 07/12/2010
+- CParam::LoadParameters fonksiyonunda fscanf'in neden olduðu açýk kapatýldý.
+v1.3 04/12/2010
+- logDebugVA ve logErrorVA fonksiyonlarý eklendi logError ve logDebug'daki Variabla Argument özelliði iptal edildi.
+v1.2 22/11/2010
+- MBASEAPI CString MIRACLEEXPORT mirGetFileTitleNoExt(LPCTSTR lpszPath) fonksiyonu eklendi.
+- rc dosyasýndaki "#include ""..\\targetver.h""\r\n" hatasý giderildi target'ýn baþýndaki \ çift olmasý gerekiyormuþ.
+- logDebug ve logError fonksiyonlarýnda iptal edilen CEdit CRuntimeclass kontrolü tekrar kondu. Ayrýca Exception atmasýna karþý try-catch kondu.
